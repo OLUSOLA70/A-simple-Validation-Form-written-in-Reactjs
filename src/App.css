@@ -1,0 +1,107 @@
+/* Filename - App.css */
+body {
+    background: #060514;
+    text-align: center;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #060514; /* Use the same color as the background */
+    opacity: 1; /* Ensures the placeholder color is fully opaque */
+}
+
+input, 
+textarea {
+    color: #060514; /* Text color when typing */
+}
+
+.App {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+h1 {
+    font-size: 26px;
+    color: #060514;
+    font-weight: bolder;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+.checkbox-group label,
+.radio-group label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+    font-size: 16px;
+}
+
+button[type="reset"] {
+    background-color: gray;
+}
+
+button[type="submit"] {
+    background-color: #060514 ;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    accent-color: #060514; /* or use the same color code as the background */
+}
+
